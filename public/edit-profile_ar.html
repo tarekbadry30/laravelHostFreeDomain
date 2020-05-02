@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>AQAR Static</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500;600&family=Tajawal:wght@800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8aaad534d4.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/my_slider.css">
+    <link rel="stylesheet" href="css/main_ar.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg  navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="index_ar.html">عقار</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">إيجار</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">بيع</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login_ar.html">تسجيل دخول</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signup_ar.html">حساب جديد</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 m-0 rounded-0 text-right " type="search" placeholder="بحث" aria-label="Search">
+            <button class="btn  rounded-0 my-2 bg-white m-0 my-sm-0" type="submit">
+                <i class="text-primary fas fa-lg fa-search"></i>
+            </button>
+        </form>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                اسم مستخدم
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="profile_ar.html">حسابي</a>
+                <a class="dropdown-item" href="edit-profile_ar.html">تعديل حسابي</a>
+                <a class="dropdown-item" href="#">تسجيل الخروج</a>
+            </div>
+        </div>
+        <a href="edit-profile.html" class="btn btn-primary">
+            english
+        </a>
+    </div>
+</nav>
+
+<div class=" login-container">
+        <div class="container">
+            <div class="row" dir="ltr">
+                <div class="offset-3 col-md-6 login-form-2">
+                    <div class="row">
+                        <div class="col-4 offset-4">
+                            <div class="profile-container">
+                                <div class="profile-img">
+                                    <img src="img/employer.webp" class="img-fluid d-block m-auto">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 profile-text">
+                            <h2 class="text-center m-auto text-white">اسم المستخدم</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <h3>تحديث بيانات المستخدم </h3>
+
+                    <form dir="rtl">
+                        <div class="form-group text-right">
+                            <label class="text-black" >الاسم كامل</label>
+                            <input type="text" class="form-control" placeholder="الاسم كامل " value="الاسم الحالي" />
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="text-black" >اسم المستخدم</label>
+
+                            <input type="text" class="form-control" placeholder="اسم المستخدم " value="اسم المستخدم" />
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="text-black" >الايميل</label>
+
+                            <input type="text" class="form-control" placeholder="الايميل " value="user@aqar.com" />
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="text-black" >كلمة السر الحالية</label>
+
+                            <input type="password" class="form-control" placeholder="كلمة المرور الحالية" value="" />
+
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="text-black" >كلمة السر الجديدة</label>
+
+                            <input type="password" class="form-control" placeholder="كلمة المرور الجديدة" value="" />
+
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="text-black" >اعد كلمة السر</label>
+
+                            <input type="password" class="form-control" placeholder="اعد كلمة المرور" value="" />
+
+                        </div>
+                        <div class="form-group text-right">
+                            <input type="submit" class="btnSubmit w-50 p-lg-2 m-auto d-block" value="تحديث" />
+                        </div>
+                        <div class="form-group text-right">
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        <!-- Footer -->
+    <footer class="page-footer text-center font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-right">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12 text-center mx-auto">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">عقار</h5>
+                <p class="font-weight-bold ">اكبر موقع عربي للسوق العقاري .</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+
+            <!-- Call to action
+
+            <ul class="list-unstyled row list-inline text-center py-2">
+
+                <li class="offset-2 col-3 list-inline-item">
+                    <h5 class="mb-1 d-inline">Register for free</h5>
+                    <a href="signup.html" class="d-inline btn btn-danger btn-rounded">Sign up!</a>
+                </li>
+                <li class="offset-2 col-3 list-inline-item">
+                    <h5 class="d-inline mb-1">Login Now!</h5>
+                    <a href="login.html" class="d-inline btn btn-primary btn-rounded">Login</a>
+                </li>
+            </ul>
+                    <hr>
+
+            <!-- Call to action -->
+
+
+            <!-- Copyright -->
+            <div class="col-12 footer-copyright text-center ">© 2020 Copyright:
+                <a href="#">  leen.com</a>
+            </div>
+            <!-- Copyright -->
+        </div>
+    </div>
+
+</footer>
+        <!-- Footer -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/my_slider.js"></script>
+    </body>
+</html>

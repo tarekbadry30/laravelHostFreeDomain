@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en" dir>
+    <head>
+        <meta charset="UTF-8">
+        <title>AQAR Static</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- animate on scroll -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- animate on scroll -->
+
+        <!-- google fonts
+        <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@500;600&family=Tajawal:wght@800&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/8aaad534d4.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/my_slider.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="index.html">AQAR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">signup</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 m-0" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn  my-2 bg-white m-0 my-sm-0" type="submit">
+                    <i class="text-primary fas fa-lg fa-search"></i>
+                </button>
+            </form>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    username
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="profile.html">my profile</a>
+                    <a class="dropdown-item" href="edit-profile.html">edit my account</a>
+                    <a class="dropdown-item" href="#">logout</a>
+                </div>
+            </div>
+            <a href="index_ar.html" class="btn btn-primary">
+                عربي
+            </a>
+        </div>
+    </nav>
+        <div class="main-form-container ">
+            <div class="container">
+                <h2 class="text-center text-uppercase text-white"><strong>Discover your city</strong></h2>
+                <br>
+                <br>
+                <div class="text-center row align-items-center">
+
+                    <div class="col-md-5 m-auto btn-group" role="group" aria-label="First group">
+                        <br>
+                        <button type="button" class="btn btn-secondary">Rent</button>
+                        <button type="button" class="btn btn-secondary">Sel</button>
+                        <button type="button" class="btn btn-secondary">All news</button>
+                    </div>
+                </div>
+                <div class="text-center row align-items-center">
+
+                    <div class="col-md-5 m-auto">
+                        <form class="form-row">
+                            <div class="form-group col-11 p-0">
+                                <input type="text" placeholder="search..." class="form-control rounded-0 border-right-0 form-control-lg">
+                            </div>
+                            <div class="form-group col-1 p-0">
+                                <button class="form-control bg-primary rounded-0 border-left-0 form-control-lg p-0">
+                                    <i class="fas fa-lg fa-search"></i>
+                                </button>
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-news-container">
+            <div class="container-fluid">
+                <h2 class="text-center text-capitalize"><a href="#">new posts</a></h2>
+
+                <div class="multi-slider" dir="ltr">
+                    <div class="row no-flow m-auto">
+                        <div class=" slider-controler text-center slider-controler-right" id="next-slider"> &gt; </div>
+                        <div class=" slider-container col-sm-10 offset-md-1">
+                            <ul class="list-slider" style="transform: translate(368px);">
+                                <li class="slider-list-item multislider-item full-opacity">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top" height="270" src="img/images/1.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">1</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top" height="270" src="img/images/867.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">2</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item ">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top" height="270" src="img/images/4779-10.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">3</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top" height="270" src="img/images/462114-400x300.jpeg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">4</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top" height="270" src="img/images/502000076_1508047238224.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">5</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top" height="270" src="img/images/180733-1620do.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">6</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top" height="270" src="img/images/2804453.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">7</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top" height="270" src="img/images/فلل%20للبيع%20بالرياض%202.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">8</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top"  height="270" src="img/images/images.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">9</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top"  height="270" src="img/images/867.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">10</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider-list-item multislider-item">
+                                    <div class="card rounded-0">
+                                        <img class="card-img-top"  height="270" src="img/images/1560244605_211_372233_image-770x435.jpg">
+                                        <div class="card-block">
+                                            <h4 class="card-title text-center"><a href="postDetails_ar.html">11</a></h4>
+                                            <div class="text-right card-text">
+                                                فيلا للايجار بمدينه الشيخ زايد
+                                                مساحة 500 متر
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                            <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=" slider-controler text-center slider-controler-left" id="pre-slider"> &lt; </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="text-center text-capitalize"><a href="#">Rent posts</a></h2>
+                <div class="row border">
+                    <div data-aos="fade-right"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/1589175233040874464.png">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/akar.jpg">
+
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/502000076_1508047238224.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-right"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/2804453.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-up"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/فلل%20للبيع%20بالرياض%202.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-down"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/braderie-du-patrimoine-algeriens-et-libyens-desormais-autorises-a-acquerir-des-biens-immobiliers-en-tunisie-a-des-conditions-plutot-derisoires.png">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/867.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-up"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/4779-10.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-down"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/180733-1620do.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-center text-capitalize"><a href="#">Sell posts</a></h2>
+                <div class="row border">
+                    <div data-aos="zoom-in-left"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/1589175233040874464.png">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-right"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/akar.jpg">
+
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-out"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/502000076_1508047238224.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-out-up"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/2804453.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-out-down"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/فلل%20للبيع%20بالرياض%202.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-out-right"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/braderie-du-patrimoine-algeriens-et-libyens-desormais-autorises-a-acquerir-des-biens-immobiliers-en-tunisie-a-des-conditions-plutot-derisoires.png">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-out-left"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/867.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/4779-10.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-down"   data-aos-duration="500" class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                        <div class="card rounded-0">
+                            <img height="270" class="card-img-top" src="img/images/180733-1620do.jpg">
+                            <div class="card-block">
+                                <h4 class="card-title text-center"><a href="postDetails.html">title</a></h4>
+                                <div class="card-text">
+                                    Tawshif is a web designer living in Bangladesh.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="float-right"><i class="far fa-calendar-check"></i> 14-10-2019</span>
+                                <span><i class=""></i><i class="far fa-comments"></i> 75 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+    <footer class="page-footer font-small stylish-color-dark pt-4">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">AQAR</h5>
+                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <hr>
+
+        <!-- Call to action
+        <ul class="list-unstyled row list-inline text-center py-2">
+
+            <li class="offset-2 col-3 list-inline-item">
+                <h5 class="mb-1 d-inline">Register for free</h5>
+                <a href="signup.html" class="d-inline btn btn-danger btn-rounded">Sign up!</a>
+            </li>
+            <li class="offset-2 col-3 list-inline-item">
+                <h5 class="d-inline mb-1">Login Now!</h5>
+                <a href="login.html" class="d-inline btn btn-primary btn-rounded">Login</a>
+            </li>
+        </ul>
+                <hr>
+
+        <!-- Call to action -->
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#">  leen.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+        <!-- Footer -->
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/new_slider.js"></script>
+    </body>
+</html>
