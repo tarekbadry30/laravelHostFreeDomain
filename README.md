@@ -23,10 +23,7 @@
 #### FACEBOOK_CLIENT_SECRET=YOUR_FACEBOOK_CLIENT_SECRET
 
 
-##### ====================================
-### open the project directory in your cmd 
-#### run=> php artisan serve 
-#### run=> php artisan migrate
+
 ##### ====================================
 ### update database migrations
 #### run=> php artisan migrate:fresh
